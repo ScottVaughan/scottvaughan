@@ -4,7 +4,10 @@ import './ui.component.scss';
 const UI = () => {
     return(
         <section className='ui'>
-           <div className='left-container'>
+            <div id="lc" className='left-container'>
+                <img src="./img/brain.png" alt="brain"></img>
+           </div>
+           <div id="rc" className='right-container'>
                 <img src="./img/ui.png" alt="ux"></img>
                 <div className="subheader">creating visual products to build trust in the brand</div>
                 <p>
@@ -16,9 +19,7 @@ const UI = () => {
                 </p>
                 <p>Adobe Illustrator, Adobe Photoshop, Adobe Premiere, Adobe Affter Effects</p>
             </div>
-            <div className='right-container'>
-                <img src="./img/brain.png" alt="brain"></img>
-           </div>
+           
         </section>
     )
 }

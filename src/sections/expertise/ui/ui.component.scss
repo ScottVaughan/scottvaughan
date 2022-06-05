@@ -7,7 +7,7 @@
     >div{
         width: 50%;
     }
-    .left-container{
+    .right-container{
         img{width: 20%;}
         .subheader{
             color: $blue;
@@ -18,8 +18,9 @@
             font-weight: 700;
         }
     }
-    .right-container{
+    .left-container{
         img{width: 60%;}
+        text-align:center;
     }
 
     @include md{
@@ -27,11 +28,9 @@
         >div{
             width: 100%;
         }
-        // .right-container{
-        //     img{
-        //         margin: 20%;
-        //     }
-        // }
+        // switch order in dom
+        #lc { order: 2; }
+        #rc { order: 1; }
     }
 
     @include section-margin;

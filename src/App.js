@@ -1,7 +1,12 @@
-import logo from './logo.svg';
+
 import './App.scss';
+
 import { Quote } from './components';
-import { About, Expertise } from './sections';
+import { About, Expertise, Footer, Portfolio } from './sections';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import {faCheck, faCog} from '@fortawesome/free-solid-svg-icons';
+// library.add(faCheck, faCog);
 
 function App() {
 
@@ -17,6 +22,11 @@ function App() {
         If you don’t love what you do, you won’t do it with much conviction or passion
       </Quote>
       <Expertise></Expertise>
+      <Quote person="David Frost">
+        Don’t aim for success if you want it, just do what you love and believe in and it will come naturally
+      </Quote>
+      <Portfolio></Portfolio>
+      <Footer></Footer>
     </div>
   );
 }

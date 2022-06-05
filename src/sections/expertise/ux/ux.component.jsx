@@ -17,7 +17,7 @@ const UX = () => {
                 </p>
                 <p>Balsamiq, Adobe Xd</p>
            </div>
-           <div className='right-container'>
+            <div className='right-container'>
                 <img src="./img/magnifying-glass.png" alt="magnifying glass"></img>
             </div>
         </section>
