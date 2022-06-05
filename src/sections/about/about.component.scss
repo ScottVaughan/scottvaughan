@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.about{
+    display: flex;
+    padding: 1em;
+    p,img{
+        width: 50%;
+    }
+    p{
+        margin: auto;
+    }
+}

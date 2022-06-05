@@ -1,0 +1,13 @@
+$blue: #6B97BD;
+$white: #F5F7F7;
+$orange: #d68c48;
+$black: #2C2626;
+
+
+$breakpoints: (
+  'phone': 320px,
+  'tablet': 768px,
+  'desktop-narrow': 1024px,
+  'desktop': 1200px,
+  'desktop-wide': 1400px
+) !default;
