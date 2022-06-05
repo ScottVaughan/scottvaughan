@@ -1,0 +1,33 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.ux{
+    display: flex;
+    padding: 1em;
+    >div{
+        width: 50%;
+    }
+    .left-container{
+        img{width: 20%;}
+        .subheader{
+            color: $blue;
+        }
+        span{
+            color: $blue;
+            font-size: x-large;
+            font-weight: 700;
+        }
+    }
+    .right-container{
+        img{width: 100%;}
+    }
+
+    @include md{
+        flex-direction: column;
+        >div{
+            width: 100%;
+        }
+    }
+
+    @include section-margin;
+}
