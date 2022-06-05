@@ -1,12 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import { About } from './sections';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <img src="./img/header.gif" alt="scott vaughan title"></img>
+        <div className='line'></div>
       </header>
       <About></About>
     </div>

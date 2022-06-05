@@ -1,12 +1,26 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
 .about{
-    display: flex;
     padding: 1em;
+    h2{
+        color: $orange;
+    }
+    > div{
+        display: flex;
+    }
     p,img{
         width: 50%;
     }
     p{
         margin: auto;
+    }
+    @include md{
+        > div{ 
+            flex-direction: column;
+        }
+        p,img{
+            width: 100%;
+        }
     }
 }
