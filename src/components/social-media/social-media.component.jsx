@@ -9,7 +9,7 @@ const SocialMedia = () => {
             <a href="https://www.instagram.com/scottgvaughan" target="_blank">
                 <FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon>
             </a>
-            <a href="https://www.linkedin.com/in/scott-vaughan-a9681a75/" target="_blank">
+            <a href="https://github.com/ScottVaughan" target="_blank">
                 <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
             </a>
             <a href="https://www.linkedin.com/in/scott-vaughan-a9681a75/" target="_blank">
