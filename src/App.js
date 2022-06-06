@@ -3,10 +3,10 @@ import './App.scss';
 
 import { Quote } from './components';
 import { About, Expertise, Footer, Portfolio } from './sections';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// import {faCheck, faCog} from '@fortawesome/free-solid-svg-icons';
-// library.add(faCheck, faCog);
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {faCheck, faCog, faTimes} from '@fortawesome/free-solid-svg-icons';
+library.add(faCheck, faCog, faTimes);
 
 function App() {
 

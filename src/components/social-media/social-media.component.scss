@@ -1,11 +1,7 @@
+@import '../../styles/variables';
 .social-media{
-    // height: 2em;
-    // width: 100%;
-    // background-color: red;
-    // display: flex;
-    // justify-content: space-evenly;
-    // a{
-    //     color: black;
-    //     border: 1px solid;
-    // }
+   a{
+       margin: 0em 0.5em;
+       color: $white;
+    } 
 }
