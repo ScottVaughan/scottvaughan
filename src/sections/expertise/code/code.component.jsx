@@ -13,10 +13,18 @@ const Code = () => {
                     
                     Data structures, Design Patterns, and Performant measurable code. 
                 </p>
-                <p>
-                    Primary: HTML5, SCSS | LESS, Angular.js, Angular2+, React16+, C#, .Net Core, Git
+                <ul>
+                    <li>React16+</li>
+                    <li>Angular10+</li>
+                    <li>HTML5</li>
+                    <li>SCSS | LESS</li>
+                    <li>.Net Core</li>
+                    <li>Azure DevOps</li>
+                </ul>    
+                {/* <p>
+                    Primary: , , Angular.js, Angular2+, React16+, C#, .Net Core, Git
                 </p>
-                <p>Secondary: Mongo DB, Java, Azure DevOps</p>
+                <p>Secondary: Mongo DB, Java, Azure DevOps</p> */}
             </div>
             <div className='right-container'>
                 <img src="./img/gears.png" alt="gears"></img>

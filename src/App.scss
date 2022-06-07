@@ -1,3 +1,4 @@
+@import './styles/variables';
 header{
     img{width: 100%;}
 }
@@ -5,4 +6,17 @@ header{
 .subheader{
     font-variant: petite-caps;
     font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "\2022";  /* adds new bullet, \2022 is the CSS code/unicode for a bullet */
+    color: $blue;        /* change the content (bullet) color */
+    font-size: 1.5em; 	   /* specifies font size in em or %*/
+    display: inline-block; /* adds space between the bullet and the text */
+    width: 1em;			   /* space between the bullet and the text */
+    margin-left: auto;     /* move bullet to the left (to the old bullet place)  */
 }

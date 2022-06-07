@@ -12,12 +12,16 @@ const UI = () => {
                 <div className="subheader">creating visual products to build trust in the brand</div>
                 <p>
                     Once the UX designs are approved, I then begin implementing the look and feel of the <span>user interface</span>. 
-                    This includes colors and imagery that creates feeling and trust in the end user.
+                    This includes colors and imagery that creates a professional, clean, application.
                 </p>
-                <p>
-                    I achieve this by: High fidility compositions, Spec sheets, logos and graphics, creating style sheets, design library
-                </p>
-                <p>Adobe Illustrator, Adobe Photoshop, Adobe Premiere, Adobe Affter Effects</p>
+                <ul>
+                    <li>High Fidility Compositions</li>
+                    <li>Logo and Graphic Design</li>
+                    <li>Spec Sheets</li>
+                    <li>Design Library</li>
+                    <li>Style Sheets</li>
+                </ul>    
+                {/* <p>Adobe Illustrator, Adobe Photoshop, Adobe Premiere, Adobe Affter Effects</p> */}
             </div>
            
         </section>
