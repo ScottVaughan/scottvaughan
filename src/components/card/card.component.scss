@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.card{
+    width: 100%;
+    border-radius: 0.5em;
+    // margin: auto;
+    a{
+        cursor: pointer;
+        text-align: center;
+    }
+}

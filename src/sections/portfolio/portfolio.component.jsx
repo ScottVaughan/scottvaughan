@@ -1,11 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import './portfolio.component.scss';
-import {Model} from '../../components';
+import {Model, Card} from '../../components';
 import projects from './portfolio-projects.json';
 const Portfolio = () => {
     return(
         <section className='portfolio'>
-            <a href="./SassyBakery.pdf" target="_blank">Sweet and Sassy Bakery</a>
+            <h2>Portfolio</h2> 
+            <div className='card-row'>
+                <Card url="./SassyBakery.pdf" borderColor="#B23257">
+                    <img src="./img/Bakery.svg" alt="bakery logo"></img>
+                </Card>
+                <Card url="./Aquarium.pdf" borderColor="#1569B0">
+                    <img src="./img/Aquarium.svg" alt="aquarium logo"></img>
+                </Card>
+            </div>
+           
+         
             {/* <Model props={projects[0]}>
                 <embed
                     src="./SassyBakery.pdf"

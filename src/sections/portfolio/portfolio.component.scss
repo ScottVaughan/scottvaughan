@@ -1,0 +1,26 @@
+@import '../../styles/mixins';
+.portfolio{
+    h2{
+        color: $orange;
+        text-align: center;
+    }
+    .card-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 1em;
+        >div{
+            height: 30%;
+            width: 30%;
+            margin: 0.5em 0em;
+        }
+    }
+    @include  md{
+      .card-row{
+        >div{
+            height: 40%;
+            width: 40%;
+        }
+      }
+    }
+}
