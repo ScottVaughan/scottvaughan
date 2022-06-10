@@ -13,6 +13,8 @@ const Portfolio = () => {
                 <Card url="./Aquarium.pdf" borderColor="#1569B0">
                     <img src="./img/Aquarium.svg" alt="aquarium logo"></img>
                 </Card>
+                <div></div>
+                <div></div>
             </div>
            
          

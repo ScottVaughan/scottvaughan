@@ -8,10 +8,11 @@ const About = () => {
             <div>
                 <div className='text-container'>
                     <p>Hello, I'm <span>Scott Vaughan</span></p>
+                    <p>I Design, Code, and Deploy industry standard applications.</p>
                     <p>
-                        I Design, Code, and Deploy industry standard applications. I have six years of experience working for a fortune 500 company. I've
-                        mentored in design and coding principles. I specialize in front-end development, but I have extensive experience designing, setting up,
-                        a database and server layer.   
+                        With over six years of experience working for a fortune 500 company, I've been plugged into every facet of the developer lifecycle. 
+                        I specialize in front-end development, but I have extensive experience designing and setting up
+                        the database and service layer.   
                     </p>
                     <p>Design and Code is my <span>Passion</span>. Lets build something incredible. </p>
                 </div>
